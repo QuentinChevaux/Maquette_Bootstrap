@@ -6,25 +6,23 @@ header {
 }
 
 .header_titre {
-    padding-top: 12rem;
-    padding-left: 7rem;
+    padding-top: 10%;
+    padding-left: 7%;
 }
 
 .header_titre h1{
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 600;
-    font-size: 4rem;
+    font-size: 6vw;
     color: #FFFFFF!important;
-    letter-spacing: -0.2vh;
 }
 
 .header_titre h2 {
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 700;
-    font-size: 7rem;
+    font-size: 7vw;
     color: #2babe2!important;
-    letter-spacing: -1vh;
-    margin-top: -1.5rem;
+    margin-top: -5%;
 }
 
 .header_titre h3 {
@@ -32,16 +30,15 @@ header {
     font-weight: 300;
     font-size: 6vh;
     color: #FFFFFF!important;
-    letter-spacing: -0.2vh;
-    margin-top: -1.5rem;
+    margin-top: -2%;
 }
 
 .header_titre p {
     color: rgba(255,255,255,0.63);
     font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
-    font-size: 1rem;
+    font-size: 2vh;
     line-height: 1.8em; 
-    margin-top: 1.5rem;
+    margin-top: 3%;
 }
 
 .header_titre a {
@@ -57,10 +54,47 @@ header {
     font-size: 1rem;
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 600;
+    margin-bottom: 10%;
 }
 
 .header_col_2 {
     background-image: url(https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/10/company-55-hero-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.header_col_2 img {
+    width: 35%;
+}
+
+@media screen and (max-width: 1399px) {
+    .header_titre h1{
+        font-size: 9vw;        
+    }
+
+    .header_titre h2 {
+        font-size: 10vw;
+    }
+
+    
+}
+
+@media screen and (max-width: 991px) {
+    .header_titre h1{
+        font-size: 11vw;        
+    }
+
+    .header_titre h2 {
+        font-size: 12vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header_titre h1{
+        font-size: 13vw;        
+    }
+
+    .header_titre h2 {
+        font-size: 14vw;
+    }
 }
