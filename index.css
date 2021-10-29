@@ -1,0 +1,66 @@
+header {
+    background-image: url(https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/10/company-551-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header_titre {
+    padding-top: 12rem;
+    padding-left: 7rem;
+}
+
+.header_titre h1{
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    color: #FFFFFF!important;
+    letter-spacing: -0.2vh;
+}
+
+.header_titre h2 {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 7rem;
+    color: #2babe2!important;
+    letter-spacing: -1vh;
+    margin-top: -1.5rem;
+}
+
+.header_titre h3 {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 300;
+    font-size: 6vh;
+    color: #FFFFFF!important;
+    letter-spacing: -0.2vh;
+    margin-top: -1.5rem;
+}
+
+.header_titre p {
+    color: rgba(255,255,255,0.63);
+    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 1rem;
+    line-height: 1.8em; 
+    margin-top: 1.5rem;
+}
+
+.header_titre a {
+    display: inline-block;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    background-color: #2babe2;
+    font-size: 1rem;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+}
+
+.header_col_2 {
+    background-image: url(https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/10/company-55-hero-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
