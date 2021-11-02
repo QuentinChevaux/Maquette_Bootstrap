@@ -252,6 +252,107 @@ header {
     margin-bottom: 15%;
 }
 
+.services {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.services_2 {
+    margin-top: 2%;
+}
+
+.services-txt h2 {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #040d26;
+    line-height: 1.1em;
+}
+
+.services_txt p {
+    line-height: 1.8em;
+    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 15px;
+    color: #040d26;
+}
+
+.services_2 h2 {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #040d26;
+    line-height: 1.6em;
+}
+
+.services_2 p {
+    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 15px;
+    color: #8c8c8c;
+    line-height: 1.8em;  
+}
+
+.services_2 a {
+    text-decoration: none;
+    color: #040d26;
+    font-size: 14px;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    transition: 300ms ease-out;
+}
+
+.services_2 a:hover {
+    color: #2babe2;
+    transition: 300ms ease-in;
+}
+
+.icon_absolute {
+    width: 25%;
+    margin-left: 68%;
+    transform: translateY(-40px);
+    margin-bottom: -40px;
+}
+
+footer {
+    background-color: #2babe2;
+}
+
+footer h2 {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.4em;
+    color: #fff;
+}
+
+footer p {
+    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 15px;
+    line-height: 1.8em;
+    color: #fff;
+    margin-bottom: -.5%;
+}
+
+footer a {
+    display: inline-block;
+    text-decoration: none;
+    color: #040d26;
+    font-size: 15px;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    transition: 300ms ease-out;
+}
+
+footer a:hover {
+    background-color: #040d26;
+    color: #fff;
+}
+
 @media screen and (max-width: 1399px) {
     .header_titre h1{
         font-size: 9vw;        
@@ -284,6 +385,17 @@ header {
         margin-bottom: 2px;
     }
 
+    .icon_absolute {
+        width: 15%;
+    }
+    
+    .linear_2 {
+        padding-right: 0;
+    }
+
+    .footer_col_2 {
+        margin-top: 4%;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -298,6 +410,10 @@ header {
     .header_col_2 {
         height: 300px;
         background-position: center;
+    }
+
+    .icon_absolute {
+        margin-left: 83%;
     }
 
 }
