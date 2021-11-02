@@ -101,6 +101,10 @@ header {
     margin-bottom: 5%;
 }
 
+.linear {
+    background: linear-gradient(180deg,#fff 50%, #ecf7fc 0%);
+}
+
 .border_top:hover {
    transform: translateY(-5px);
    transition: 300ms ease-in;
@@ -150,6 +154,103 @@ header {
     margin-bottom: 5%;
 }
 
+.nostrum a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    background-color: #2babe2;
+    font-size: .8rem;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    margin-bottom: 2%;
+    transition: 300ms ease-out;
+}
+
+.nostrum h2 {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #040d26!important;
+    line-height: 1.1em;
+}
+
+.nostrum p {
+    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 15px;
+    line-height: 1.8em;
+    color: #8c8c8c;
+    margin-bottom: 1%;
+}
+
+.border_left {
+    border-left: 1px solid #c6c6c6;
+}
+
+.filler {
+    background-color: #ecf7fc;
+    height: 100px;
+}
+
+.linear_2 {
+    background: linear-gradient(180deg,#ecf7fc 50%, #FFFFFF 0%);
+    padding-right: 100px;
+}
+
+.img_femme {
+    background-image: url(https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/10/company-55-bg-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.linear_2 h2 {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    color: #2babe2!important;
+    letter-spacing: -7px;
+    margin-bottom: -5px;
+}
+
+.linear_2 h3 {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 40px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-bottom: -5px;
+    padding-left: 50%;
+}
+
+.linear_2 h4 {
+    font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+    font-size: 80px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.dotted_circle {
+    padding: 100px;
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: #FFFFFF;
+    margin-top: 8%;
+}
+
+.marques {
+    margin-top: 5%;
+}
+
+.marques img {
+    width: 35%;
+    margin-bottom: 15%;
+}
 
 @media screen and (max-width: 1399px) {
     .header_titre h1{
@@ -169,6 +270,18 @@ header {
 
     .header_titre h2 {
         font-size: 12vw;
+    }
+
+    .border_left {
+        border-left: none;
+    }
+
+    .nostrum a {
+        margin-top: 15px;
+    }
+
+    .nostrum p {
+        margin-bottom: 2px;
     }
 
 }
