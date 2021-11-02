@@ -16,14 +16,14 @@ header {
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 600;
     font-size: 6vw;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .header_titre h2 {
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 700;
     font-size: 7vw;
-    color: #2babe2!important;
+    color: #2babe2;
     margin-top: -5%;
 }
 
@@ -31,7 +31,7 @@ header {
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 300;
     font-size: 6vh;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     margin-top: -2%;
 }
 
@@ -170,6 +170,8 @@ header {
     transition: 300ms ease-out;
 }
 
+
+
 .nostrum h2 {
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 700;
@@ -189,11 +191,6 @@ header {
 
 .border_left {
     border-left: 1px solid #c6c6c6;
-}
-
-.filler {
-    background-color: #ecf7fc;
-    height: 100px;
 }
 
 .linear_2 {
@@ -250,6 +247,12 @@ header {
 .marques img {
     width: 35%;
     margin-bottom: 15%;
+    transition: 200ms ease-out;
+}
+
+.marques img:hover {
+    opacity: 0.5;
+    transition: 200ms ease-in;
 }
 
 .services {
@@ -309,8 +312,8 @@ header {
 .icon_absolute {
     width: 25%;
     margin-left: 68%;
-    transform: translateY(-40px);
-    margin-bottom: -40px;
+    transform: translateY(-48px);
+    margin-bottom: -48px;
 }
 
 footer {
@@ -348,7 +351,7 @@ footer a {
     transition: 300ms ease-out;
 }
 
-footer a:hover {
+footer a:hover, .nostrum a:hover {
     background-color: #040d26;
     color: #fff;
 }
@@ -395,6 +398,11 @@ footer a:hover {
 
     .footer_col_2 {
         margin-top: 4%;
+    }
+
+    .services_2 a {
+        display: inline-block;
+        margin-bottom: 3%;
     }
 }
 
