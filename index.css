@@ -3,6 +3,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+    margin-bottom: 5%;
 }
 
 .header_titre {
@@ -55,6 +57,13 @@ header {
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 600;
     margin-bottom: 10%;
+    transition: 300ms ease-out;
+}
+
+.header_titre a:hover {
+    background-color: #FFFFFF;
+    color: black;
+    transition: 300ms ease-in;
 }
 
 .header_col_2 {
@@ -67,6 +76,81 @@ header {
     width: 35%;
 }
 
+.section_1_triple_div {
+    margin-bottom: 5%;
+}
+
+.section_1_triple_div h2 {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #040d26;
+    line-height: 1.5em;
+}
+
+.section_1_triple_div p {
+    color: #8c8c8c;
+    line-height: 1.8em;
+    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 15px;
+}
+
+.section_1_double_image img {
+    width: 40%;
+    margin-bottom: 5%;
+}
+
+.border_top:hover {
+   transform: translateY(-5px);
+   transition: 300ms ease-in;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 24px;
+
+}
+
+.section_1_double_image a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    background-color: #2babe2;
+    font-size: .7rem;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    transition: 300ms ease-out;
+}
+
+.section_1_double_image a:hover {
+    background-color: black;
+    transition: 300ms ease-out;
+}
+
+.section_1_double_image h2 {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #040d26;
+}
+
+.section_1_double_image p {
+    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 15px;
+    color: #8c8c8c;
+    line-height: 1.8em;
+}
+
+.border_top {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-top: 3px solid #2babe2;
+    background-color: #FFFFFF;
+    transition: 300ms ease-out;
+    margin-bottom: 5%;
+}
+
+
 @media screen and (max-width: 1399px) {
     .header_titre h1{
         font-size: 9vw;        
@@ -75,7 +159,6 @@ header {
     .header_titre h2 {
         font-size: 10vw;
     }
-
     
 }
 
@@ -87,6 +170,7 @@ header {
     .header_titre h2 {
         font-size: 12vw;
     }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -97,4 +181,10 @@ header {
     .header_titre h2 {
         font-size: 14vw;
     }
+
+    .header_col_2 {
+        height: 300px;
+        background-position: center;
+    }
+
 }
